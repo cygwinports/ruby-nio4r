@@ -1,0 +1,14 @@
+inherit rubygem
+
+NAME="ruby-nio4r"
+VERSION=2.1.0
+RELEASE=1
+CATEGORY="Ruby"
+SUMMARY="Ruby asynchronous I/O primitives"
+DESCRIPTION="Cross-platform asynchronous I/O primitives for scalable network
+clients and servers. Inspired by the Java NIO API, but simplified for
+ease-of-use."
+
+PKG_NAMES="${NAME} ${NAME}-doc"
+ruby_nio4r_CONTENTS="${RUBYGEM_EXTDIR#/} ${RUBYGEM_INSTDIR#/} ${RUBYGEM_SPEC#/}"
+ruby_nio4r_doc_CONTENTS=${RUBYGEM_DOCDIR#/}
