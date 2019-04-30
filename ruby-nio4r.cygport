@@ -1,7 +1,7 @@
 inherit rubygem
 
 NAME="ruby-nio4r"
-VERSION=2.1.0
+VERSION=2.3.1
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby asynchronous I/O primitives"
